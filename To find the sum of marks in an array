@@ -1,0 +1,21 @@
+#include<bits/stdc++.h>
+using namespace std;
+ 
+int main() 
+{
+   int size;
+   cout<<"Enter Size: ";
+   cin>>size;
+   int marks[size];
+   cout<<"Enter marks\n";
+   
+   int sum=0;
+   for(int i=0;i<size;i++) 
+   {
+       cin>>marks[i];
+       sum=sum+marks[i];
+       
+   }
+   cout<<"Total= "<<sum<<endl;
+   return 0;
+}
